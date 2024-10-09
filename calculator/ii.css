@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calculator {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.calculator form input {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  background: transparent;
+  
+    font-size: 20px;
+    color: yellow;
+    margin: 10px;
+}
+
+#input {
+    width: -webkit-fill-available;
+}
+
+form .dekho {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .dekho input {
+    text-align: right;
+    flex: 1;
+   
+    
+}
